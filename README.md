@@ -24,12 +24,7 @@ git clone https://github.com/happy1063/eww-music-widget ~/.config/eww/music-widg
 
 2. Add to `~/.config/eww/eww.yuck`
 ```
-(deflisten music_title "~/.config/eww/music-widget/scripts/music_title.sh")
-(deflisten music_artist "~/.config/eww/music-widget/scripts/music_artist.sh")
-(deflisten music_cover "~/.config/eww/music-widget/scripts/music_cover.sh")
-(deflisten music_status "~/.config/eww/music-widget/scripts/music_status.sh")
-
-(include "~/.config/eww/music-widget/eww.yuck")
+(include "music-widget/eww.yuck")
 ```
 
 3. Make scripts executable:

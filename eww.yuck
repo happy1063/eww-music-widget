@@ -1,7 +1,7 @@
-(deflisten music_title "~/.config/eww/scripts/music_title.sh")
-(deflisten music_artist "~/.config/eww/scripts/music_artist.sh")
-(deflisten music_cover "~/.config/eww/scripts/music_cover.sh")
-(deflisten music_status "~/.config/eww/scripts/music_status.sh")
+(deflisten music_title "scripts/music_title.sh")
+(deflisten music_artist "scripts/music_artist.sh")
+(deflisten music_cover "scripts/music_cover.sh")
+(deflisten music_status "scripts/music_status.sh")
 
 (defwidget music_widget []
   (box :class "box" :orientation "v" :spacing 1

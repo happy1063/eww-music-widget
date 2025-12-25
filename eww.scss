@@ -1,46 +1,48 @@
-* {
-  all: unset;
-  font-family: JetBrainsMono Nerd Font;
-  color: #adb1b9;
-}
+.music-widget {
+  * {
+    all: unset;
+    font-family: JetBrainsMono Nerd Font;
+    color: #adb1b9;
+  }
 
-.box {
-  background-color: rgba(39, 42, 43, 0.85);
-  padding: 6px 6px;
-}
+  .box {
+    background-color: rgba(39, 42, 43, 0.85);
+    padding: 6px 6px;
+  }
 
-.cover-box {
-  border-radius: 20px;
-}
+  .cover-box {
+    border-radius: 20px;
+  }
 
-button {
-  background-color: rgba(60, 63, 65, 0.8);
-  border-radius: 2px;
-  padding: 2px 8px;
-}
+  button {
+    background-color: rgba(60, 63, 65, 0.8);
+    border-radius: 2px;
+    padding: 2px 8px;
+  }
 
-button:hover {
-  background-color: rgba(255, 121, 198, 0.9);
-}
+  button:hover {
+    background-color: rgba(255, 121, 198, 0.9);
+  }
 
-button:hover .btn-text {
-  color: rgba(230,230,230,1);
-}
+  button:hover .btn-text {
+    color: rgba(230,230,230,1);
+  }
 
-.btn-text {
-  font-family: JetBrainsMono Nerd Font;
-  font-size: 16px;
-  color: #adb1b9;
-  transition: color 0.5s ease;
-}
+  .btn-text {
+    font-family: JetBrainsMono Nerd Font;
+    font-size: 16px;
+    color: #adb1b9;
+    transition: color 0.5s ease;
+  }
 
-.title {
-  font-size: 12px;
-  margin-bottom: -6px;
-}
+  .title {
+    font-size: 12px;
+    margin-bottom: -6px;
+  }
 
-.sub {
-  font-size: 10px;
-  opacity: 0.8;
-  margin-top: -6px;
+  .sub {
+    font-size: 10px;
+    opacity: 0.8;
+    margin-top: -6px;
+  }
 }

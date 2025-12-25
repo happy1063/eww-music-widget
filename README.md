@@ -1,5 +1,7 @@
 Minimal music widget for **EWW** with album cover, title, artist and media controls.
 
+![Preview](assets/preview.png)
+
 ## ✨ Features
 - Cover art (cached)
 - Track title + artist

@@ -23,3 +23,5 @@ eww open music
 - Arch Linux
 - bspwm
 - Spotify, Firefox, VLC
+
+[![Star History Chart](https://api.star-history.com/svg?repos=happy1063/eww-music-widget&type=Date)](https://star-history.com/#happy1063/eww-music-widget&Date)

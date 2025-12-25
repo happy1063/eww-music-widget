@@ -13,9 +13,34 @@ Minimal music widget for **EWW** with album cover, title, artist and media contr
 sudo pacman -S eww playerctl curl ttf-jetbrains-mono-nerd
 ```
 
+## 🧩 Installation
+
+### 🛠 Manual setup
+
+1. Clone repository:
+```bash
+git clone https://github.com/happy1063/eww-music-widget ~/.config/eww/music-widget
+```
+
+2. Add to `~/.config/eww/eww.yuck`
+```
+(deflisten music_title "~/.config/eww/music-widget/scripts/music_title.sh")
+(deflisten music_artist "~/.config/eww/music-widget/scripts/music_artist.sh")
+(deflisten music_cover "~/.config/eww/music-widget/scripts/music_cover.sh")
+(deflisten music_status "~/.config/eww/music-widget/scripts/music_status.sh")
+
+(include "~/.config/eww/music-widget/eww.yuck")
+```
+
+3. Make scripts executable:
+```bash
+chmod +x ~/.config/eww/music-widget/scripts/*.sh
+```
+
+> **Note:** Make sure the following dependencies are installed before proceeding.
+
 ## ▶ Usage
 ```
-eww reload
 eww open music
 ```
 
@@ -24,4 +49,11 @@ eww open music
 - bspwm
 - Spotify, Firefox, VLC
 
-[![Star History Chart](https://api.star-history.com/svg?repos=happy1063/eww-music-widget&type=Date)](https://star-history.com/#happy1063/eww-music-widget&Date)
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://api.star-history.com/svg?repos=happy1063/eww-music-widget&type=Date&theme=dark" />
+  <source media="(prefers-color-scheme: light)"
+    srcset="https://api.star-history.com/svg?repos=happy1063/eww-music-widget&type=Date" />
+  <img alt="Star History Chart"
+    src="https://api.star-history.com/svg?repos=happy1063/eww-music-widget&type=Date" />
+</picture>

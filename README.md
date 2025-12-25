@@ -8,7 +8,7 @@ Minimal music widget for **EWW** with album cover, title, artist and media contr
 
 ## 📦 Dependencies
 ```bash
-sudo pacman -S eww playerctl curl
+sudo pacman -S eww playerctl curl ttf-jetbrains-mono-nerd
 ```
 
 ## ▶ Usage
